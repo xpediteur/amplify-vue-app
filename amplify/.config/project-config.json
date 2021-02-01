@@ -1,0 +1,18 @@
+{
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "vueAmplifyApp",
+  "version": "3.0",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "vue",
+    "config": {
+      "SourceDir": "src",
+      "DistributionDir": "dist",
+      "BuildCommand": "npm run-script build",
+      "StartCommand": "npm run-script serve",
+      "ServerlessContainers": false
+    }
+  }
+}

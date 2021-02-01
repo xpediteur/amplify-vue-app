@@ -1,0 +1,7 @@
+type Topics @model @auth(rules: [{allow: private}]) {
+  id: ID!
+  heading: String
+  detail: String
+  identifier: Int
+}
+ 
